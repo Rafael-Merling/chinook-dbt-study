@@ -1,0 +1,104 @@
+[0m13:58:07.254422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f827da50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f67b63e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f67b6380>]}
+
+
+============================== 13:58:07.256270 | 32b9c6a9-e653-429a-bbc0-ef0113b5754e ==============================
+[0m13:58:07.256270 [info ] [MainThread]: Running with dbt=1.8.3
+[0m13:58:07.256624 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/rafael-merling/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:58:07.260417 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/rafael-merling/.dbt')}
+[0m13:58:07.260707 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:58:33.928740 [debug] [MainThread]: Starter project path: /home/rafael-merling/.local/share/virtualenvs/chinook-DBT-v-aTDygu/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:58:33.931523 [info ] [MainThread]: 
+Your new dbt project "chinook_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:58:33.932232 [info ] [MainThread]: Setting up your profile.
+[0m13:59:53.708919 [info ] [MainThread]: Profile chinook_dbt written to /home/rafael-merling/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:59:53.711760 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 106.487946, "process_user_time": 0.79366, "process_kernel_time": 0.060706, "process_mem_max_rss": "94132", "process_in_blocks": "632", "process_out_blocks": "88"}
+[0m13:59:53.713192 [debug] [MainThread]: Command `dbt init` succeeded at 13:59:53.712975 after 106.49 seconds
+[0m13:59:53.714063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f827da50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f67b6500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119f67b6590>]}
+[0m13:59:53.714957 [debug] [MainThread]: Flushing usage events
+[0m14:15:09.187113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa734619c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa7199e3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa7199e320>]}
+
+
+============================== 14:15:09.189806 | 0f3b1a32-d8ab-4857-84bc-77ac85ee3872 ==============================
+[0m14:15:09.189806 [info ] [MainThread]: Running with dbt=1.8.3
+[0m14:15:09.190270 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/rafael-merling/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:15:09.194528 [info ] [MainThread]: dbt version: 1.8.3
+[0m14:15:09.194827 [info ] [MainThread]: python version: 3.10.12
+[0m14:15:09.195121 [info ] [MainThread]: python path: /home/rafael-merling/.local/share/virtualenvs/chinook-DBT-v-aTDygu/bin/python
+[0m14:15:09.195422 [info ] [MainThread]: os info: Linux-6.5.0-41-generic-x86_64-with-glibc2.35
+[0m14:15:09.227336 [info ] [MainThread]: Using profiles dir at /home/rafael-merling/.dbt
+[0m14:15:09.227749 [info ] [MainThread]: Using profiles.yml file at /home/rafael-merling/.dbt/profiles.yml
+[0m14:15:09.228069 [info ] [MainThread]: Using dbt_project.yml file at /home/rafael-merling/Documents/Erathos/Estudos/chinook-DBT/dbt_project.yml
+[0m14:15:09.228437 [info ] [MainThread]: adapter type: postgres
+[0m14:15:09.228668 [info ] [MainThread]: adapter version: 1.8.2
+[0m14:15:09.228906 [info ] [MainThread]: Configuration:
+[0m14:15:09.229102 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:15:09.229309 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:15:09.229517 [info ] [MainThread]: Required dependencies:
+[0m14:15:09.229742 [debug] [MainThread]: Executing "git --help"
+[0m14:15:09.231106 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:15:09.231391 [debug] [MainThread]: STDERR: "b''"
+[0m14:15:09.231588 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:15:09.231784 [info ] [MainThread]: Connection:
+[0m14:15:09.232014 [info ] [MainThread]:   host: localhost
+[0m14:15:09.232234 [info ] [MainThread]:   port: 5432
+[0m14:15:09.232436 [info ] [MainThread]:   user: schemacrawler
+[0m14:15:09.232635 [info ] [MainThread]:   database: schemacrawler
+[0m14:15:09.232835 [info ] [MainThread]:   schema: public
+[0m14:15:09.233046 [info ] [MainThread]:   connect_timeout: 10
+[0m14:15:09.233311 [info ] [MainThread]:   role: None
+[0m14:15:09.233565 [info ] [MainThread]:   search_path: None
+[0m14:15:09.233795 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:15:09.234057 [info ] [MainThread]:   sslmode: None
+[0m14:15:09.234365 [info ] [MainThread]:   sslcert: None
+[0m14:15:09.234705 [info ] [MainThread]:   sslkey: None
+[0m14:15:09.235076 [info ] [MainThread]:   sslrootcert: None
+[0m14:15:09.235432 [info ] [MainThread]:   application_name: dbt
+[0m14:15:09.235797 [info ] [MainThread]:   retries: 1
+[0m14:15:09.236356 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m14:15:09.248308 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:15:09.274748 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:15:09.275343 [debug] [MainThread]: On debug: select 1 as id
+[0m14:15:09.275850 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:15:09.283357 [debug] [MainThread]: SQL status: SELECT 1 in 0.007 seconds
+[0m14:15:09.284447 [debug] [MainThread]: On debug: Close
+[0m14:15:09.284962 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:15:09.285464 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:15:09.285835 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/rafael-merling/Documents/Erathos/Estudos/chinook-DBT/dbt_project.yml> not found
+
+[0m14:15:09.286718 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.12926199, "process_user_time": 0.760085, "process_kernel_time": 0.09601, "process_mem_max_rss": "102328", "process_in_blocks": "64", "process_out_blocks": "32", "command_success": false}
+[0m14:15:09.287345 [debug] [MainThread]: Command `dbt debug` failed at 14:15:09.287238 after 0.13 seconds
+[0m14:15:09.287881 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:15:09.288366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa734619c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa719a03a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77fa7129ab30>]}
+[0m14:15:09.288831 [debug] [MainThread]: Flushing usage events
+[0m15:50:23.903928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e8979a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e6e7d0f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e6e7d090>]}
+
+
+============================== 15:50:23.905908 | bd25c443-bc61-4695-b002-bf030f6c3431 ==============================
+[0m15:50:23.905908 [info ] [MainThread]: Running with dbt=1.8.3
+[0m15:50:23.906272 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/rafael-merling/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:50:23.906628 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/rafael-merling/Documents/Erathos/Estudos/chinook-DBT/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:50:23.907133 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.005398752, "process_user_time": 0.671891, "process_kernel_time": 0.072855, "process_mem_max_rss": "88508", "process_in_blocks": "42864", "process_out_blocks": "16", "command_success": false}
+[0m15:50:23.907452 [debug] [MainThread]: Command `dbt run` failed at 15:50:23.907399 after 0.01 seconds
+[0m15:50:23.907676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e8979a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e6e7d180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b5e6e7d0c0>]}
+[0m15:50:23.907900 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+
+    chinook-database:
+      image: schemacrawler/chinook-database
+      container_name: chinook-database
+      stdin_open: true
+      tty: true
+
+    postgresql:
+      image: postgres
+      container_name: postgres
+      ports:
+        - target: 5432
+          published: 5432
+          protocol: tcp
+          mode: host
+      environment:
+        POSTGRES_DB: schemacrawler
+        POSTGRES_USER: schemacrawler
+        POSTGRES_PASSWORD: schemacrawler

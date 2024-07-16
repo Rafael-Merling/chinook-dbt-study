@@ -1,0 +1,10 @@
+sources:
+  - name: public
+    tables:
+      - name: InvoiceLine
+      - name: Invoice
+      - name: Track
+      - name: Genre
+      - name: MediaType
+      - name: Customer
+      - name: Album

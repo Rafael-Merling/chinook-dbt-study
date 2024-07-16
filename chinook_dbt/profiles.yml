@@ -1,0 +1,12 @@
+chinook_dbt:
+  outputs:
+    dev:
+      dbname: schemacrawler
+      host: localhost
+      pass: schemacrawler
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: schemacrawler
+  target: dev
