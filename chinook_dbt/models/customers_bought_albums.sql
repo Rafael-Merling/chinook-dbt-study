@@ -6,12 +6,12 @@
 
 
 SELECT
-    "CustomerId",
-    "FirstName",
-    "LastName",
-    count(distinct "InvoiceId") as total_purchases,
-    sum("UnitPrice"*"Quantity") as total_spent,
-    count(distinct "TrackId") as tracks_bought,
-    count(distinct "AlbumId") as albums_bought
+    customer_id,
+    first_name,
+    last_name,
+    count(distinct invoice_id) as total_purchases,
+    sum(unit_price*quantity) as total_spent,
+    count(distinct track_id) as tracks_bought,
+    count(distinct album_id) as albums_bought
 from {{ref('purchase_details')}}
-GROUP BY "CustomerId", "FirstName", "LastName"
+GROUP BY customer_id, first_name, last_name

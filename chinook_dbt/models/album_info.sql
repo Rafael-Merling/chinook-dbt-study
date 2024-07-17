@@ -4,9 +4,9 @@
 
 
 SELECT
-    "AlbumId",
-    Album,
-    Genre,
-    count(Track) as number_of_tracks
+    album_id,
+    album_name,
+    genre_name,
+    count(track_name) as number_of_tracks
 from {{ref('fct_sales')}}
-GROUP BY "AlbumId", Album, Genre
+GROUP BY album_id, album_name, genre_name
